@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:bisque;
+}
+.flag{
+    width: 900px;
+    margin-left: 160px;
+    margin-top: 25px;
+    height: 600px;
+
+}
+.flag > div{
+    width: 100%;
+    height: 200px;
+}
+#saffron{
+    background-color: orange;
+}
+#deepgreen{
+    background-color: darkgreen;
+}
+#white{
+    background-color: white;
+    position: relative;
+}
+.flag > div > div{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(19, 19, 164);
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+}
+.flag > div > div > div{
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    position: absolute;
+}
+.flag > div > div > div > div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(19, 19, 164);
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    border-radius: 50%;
+}
+.flag > div > div > div > .line{
+    position: relative;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(19, 19, 164);
+}
+.flag > div > div > div > .line#fir{
+    rotate: 90deg;
+    left: 35px;
+    top: 47px;
+}
+.flag > div > div > div > .line#sec{
+    rotate: 90deg;
+    left: 35px;
+    top: 120px;
+}
+.flag > div > div > div > .line#thr{
+    rotate: 0deg;
+    left: 0px;
+    top: 80px;
+}
+.flag > div > div > div > .line#fou{
+    rotate: 40deg;
+    left: 0px;
+    top: 45px;
+}
+.flag > div > div > div > .line#fiv{
+    rotate: 40deg;
+    left: 60px;
+    top: 95px;
+    width: 100px;
+}
+.flag > div > div > div > .line#six{
+    rotate: 0deg;
+    left: 70px;
+    top: 70px;
+}
+.flag > div > div > div > .line#sev{
+    rotate: 320deg;
+    left: 70px;
+    top: 40px;
+    width: 90px;
+}
+.flag > div > div > div > .line#eig{
+    rotate: 320deg;
+    left: 0px;
+    top: 90px;
+}
