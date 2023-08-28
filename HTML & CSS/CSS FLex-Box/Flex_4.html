@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            max-width: 960px;
+            min-width: 200px;
+            display: flex;
+        }
+        .child{
+            width: 350px;
+            height: 50px;
+        }
+        .one{
+            background-color: red;
+            flex-shrink: 1;
+        }
+        .two{
+            background-color: green;
+            flex-shrink: 2;
+        }
+        .three{
+            background-color: blue;
+            flex-shrink: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child one"></div>
+        <div class="child two"></div>
+        <div class="child three"></div>
+    </div>
+</body>
+</html>
